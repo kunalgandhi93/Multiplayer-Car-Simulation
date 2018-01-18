@@ -2,6 +2,8 @@
 
 In this Code,I have implemented MQTT protocol to communicate between Android Device and Raspberry Pi. In this protocol the android devices are publisher as well as subscribers and the Raspberry Pis are brokers. Each Android device subscribes to another two Raspberry Pis and publishes its parameters to its own Raspberry Pi. This method is then implemented on the other two android devices as well.
 
+MainActivity File location : Multiplayer_Car/app/src/main/java/com/frost/mqtttutorial/MainActivity.java
+
 Installation:
 1) Install Eclipse-Paho on Raspberry Pi.
 
